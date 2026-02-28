@@ -94,7 +94,9 @@ function App() {
         </div>
 
         {/* Placeholder Columns to match image vibes */}
-
+        <div className="hidden lg:block bg-[#EBEEF7]/50 border-2 border-dashed border-gray-200 rounded-3xl p-4">
+          <p className="text-center text-gray-400 mt-10 font-bold text-sm">Future Goals</p>
+        </div>
         <div className="hidden lg:block bg-[#EBEEF7]/50 border-2 border-dashed border-gray-200 rounded-3xl p-4">
           <p className="text-center text-gray-400 mt-10 font-bold text-sm">Bucket List</p>
         </div>
