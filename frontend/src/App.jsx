@@ -62,7 +62,7 @@ function App() {
 
         {/* Column 2: Recent Logs (Like the Purple Column in image) */}
         <div className="bg-[#EBEEF7] p-4 rounded-3xl">
-          <h2 className="flex justify-between items-center font-bold mb-4 px-2">
+          <h2 className="f p0fxlex justify-between items-center font-bold mb-4 px-2">
             History <span className="bg-[#7551FF] text-white px-2 py-0.5 rounded-lg text-xs">{logs.length}</span>
           </h2>
 
