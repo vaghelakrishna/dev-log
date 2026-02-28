@@ -62,7 +62,7 @@ function App() {
 
         {/* Column 2: Recent Logs (Like the Purple Column in image) */}
         <div className="bg-[#EBEEF7] p-4 rounded-3xl">
-          <h2 className="flex justify-between items-center font-bold mb-4 px-2">
+          <h2 className="f p0fxlex justify-between items-center font-bold mb-4 px-2">
             History <span className="bg-[#7551FF] text-white px-2 py-0.5 rounded-lg text-xs">{logs.length}</span>
           </h2>
 
@@ -94,12 +94,10 @@ function App() {
         </div>
 
         {/* Placeholder Columns to match image vibes */}
-        {/* <div className="hidden lg:block bg-[#EBEEF7]/50 border-2 border-dashed border-gray-200 rounded-3xl p-4">
-          <p className="text-center text-gray-400 mt-10 font-bold text-sm">Future Goals</p>
-        </div>
+
         <div className="hidden lg:block bg-[#EBEEF7]/50 border-2 border-dashed border-gray-200 rounded-3xl p-4">
           <p className="text-center text-gray-400 mt-10 font-bold text-sm">Bucket List</p>
-        </div> */}
+        </div>
 
       </main>
     </div>
